@@ -1,8 +1,8 @@
 # ktechnical-lab
-![Last Commit](https://img.shields.io/github/last-commit/YOUR-USERNAME/homelab-infra)
-![Issues](https://img.shields.io/github/issues/YOUR-USERNAME/homelab-infra)
-![License](https://img.shields.io/github/license/YOUR-USERNAME/homelab-infra)
-![Repo Size](https://img.shields.io/github/repo-size/YOUR-USERNAME/homelab-infra)
+![Last Commit](https://img.shields.io/github/last-commit/Kruuxt/ktechnical-lab)
+![Issues](https://img.shields.io/github/issues/Kruuxt/ktechnical-lab)
+![License](https://img.shields.io/github/license/Kruuxt/ktechnical-lab)
+![Repo Size](https://img.shields.io/github/repo-size/Kruuxt/ktechnical-lab)
 ![Platform](https://img.shields.io/badge/platform-Proxmox-informational?logo=proxmox)
 
 This repository documents the build and evolution of my homelab environment, hosted on a Dell T5810 running Proxmox VE.  
