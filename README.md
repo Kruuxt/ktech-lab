@@ -23,10 +23,8 @@ It serves as a platform for experimenting with virtualization, networking, and s
 - **Networking**: OPNsense VM handling routing & firewall (bridge-mode modem)  
 - **Storage**: TrueNAS VM (planned)  
 
-**Topology (as of 2025-09-03):**
-
-![Topology Diagram](diagrams/2025-09-03-topology.png)
-
+**Topology**
+TODO
 ---
 
 ## Documentation Rules
