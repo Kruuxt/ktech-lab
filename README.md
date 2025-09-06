@@ -67,6 +67,10 @@ It serves as a platform for experimenting with virtualization, networking, and s
 - GPU: NVIDIA RTX 3090
 - PSU: 1600W Titanium (Corsair 1600i)
 
+**Diagram**
+
+![Diagram](diagrams/2025-09-05%20%7C%20Network%20Diagram.webp)
+
 ## Documentation Rules
 
 To keep this repository organized and professional, the following rules apply:
