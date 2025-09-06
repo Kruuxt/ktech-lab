@@ -1,4 +1,4 @@
-# ktechnical-lab
+# KTech Lab
 ![Last Commit](https://img.shields.io/github/last-commit/Kruuxt/ktechnical-lab)
 ![Issues](https://img.shields.io/github/issues/Kruuxt/ktechnical-lab)
 ![License](https://img.shields.io/github/license/Kruuxt/ktechnical-lab)
