@@ -5,27 +5,67 @@
 ![Repo Size](https://img.shields.io/github/repo-size/Kruuxt/ktechnical-lab)
 ![Platform](https://img.shields.io/badge/platform-Proxmox-informational?logo=proxmox)
 
-This repository documents the build and evolution of my homelab environment, hosted on a Dell T5810 running Proxmox VE.  
+This repository documents the build and evolution of my homelab environment.  
 It serves as a platform for experimenting with virtualization, networking, and storage, while enforcing a disciplined process for documentation and change tracking.  
 
 ---
 
 ## Goals
-- Gain practical, hands-on experience with enterprise-like infrastructure.  
+- Gain practical, hands-on experience with network infrastructure.  
 - Practice documenting changes, issues, and solutions in a repeatable way.  
 - Build a referenceable portfolio of technical projects.  
 
 ---
 
-## Current Architecture
-- **Hardware**: Dell T5810, GTX 1060, 600GB HDD, 3TB HDD, dual-port NIC  
-- **Virtualization**: Proxmox VE  
-- **Networking**: OPNsense VM handling routing & firewall (bridge-mode modem)  
-- **Storage**: TrueNAS VM (planned)  
+## Hardware
+**Dell Precision T5810**
+- Name: pve1
+- CPU: Intel Xeon E5-1650 v4
+  - Cores: 6
+  - Threads: 12
+  - Base/Max Freq.: 3.6/4.0 GHz
+  - Cache: 15MB
+  - TDP: 140W
+- RAM:
+  - Capacity: 48GB (3x16)
+  - Speed: 2133MHz
+  - Type: ECC DDR4 RDIMM
+- Disk1: 600GB 7200RPM HDD SATA
+- Disk2: 3TB 7200RPM HDD SATA
+- GPU: NVIDIA GTX 1060
+- PSU: 825W
 
-**Topology**
-TODO
----
+**Trigkey S5 Mini**
+- Name: trigkey
+- CPU: Ryzen 5 5500U
+  - Cores: 6
+  - Threads: 12
+  - Base/Max Freq.: 2.1/4.0 GHz
+  - Cache: 8MB
+  - TDP: 15W
+- RAM:
+  - Capacity: 16GB (2x8)
+  - Speed: 3200MHz
+  - Type: DDR4 SODIMM
+- Disk1: 500GB M.2 NVME
+- GPU: Integrated
+
+**Main Desktop**
+- Name: john-desktop
+- CPU: Intel Core i9-9900K
+  - Cores: 8
+  - Threads: 16
+  - Base/Max Freq.: 3.6/5.0 GHz
+  - Cache: 16MB
+  - TDP: 95W
+- RAM:
+  - Capacity: 32GB (4x8)
+  - Speed: 4000MHz
+  - Type: DDR4 DIMM
+- Disk1: 1TB M.2 NVME (Samsung 970)
+- Disk2: 1TB M.2 NVME (Crucial P1)
+- GPU: NVIDIA RTX 3090
+- PSU: 1600W Titanium (Corsair 1600i)
 
 ## Documentation Rules
 
